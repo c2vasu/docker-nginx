@@ -11,9 +11,9 @@ $ docker-compose build
 $ docker-compose up
 ```
 ### Scaling containers
-Open new terminal and run the below command.
+Open new terminal and run the below command. </br>
+docker-compose scale <SERVICE>=4
 ```
-$ docker-compose scale <SERVICE>=4
 $ docker-compose scale app=4
 ```
 ### Healing
@@ -40,7 +40,7 @@ $ cd /app
 $ docker build -t app .
 $ docker run -p 9000:80 app
 ```
-### Docker-Compose cheat sheet
+# Docker-Compose cheat sheet
 ```
 build    Build or rebuild services
 help     Get help on a command
